@@ -7,10 +7,10 @@ import java.util.random.RandomGenerator;
 public class Excercise1C {
 //1. Duplicate Removal: Given a list of strings, use a HashSet to remove all duplicate strings and print the unique strings.
     public static void one(){
-        List<String> arr = Arrays.asList("Anees","Srijith","Hussain","Koushik","Anees");
-        System.out.println("With Duplicates: "+arr);
+        List<String> array = Arrays.asList("Anees","Srijith","Hussain","Koushik","Anees");
+        System.out.println("With Duplicates: "+array);
 
-        HashSet<String> set = new HashSet<>(arr);
+        HashSet<String> set = new HashSet<>(array);
         System.out.println("Without Duplicates: "+set);
 
     }
@@ -18,10 +18,10 @@ public class Excercise1C {
 
 //2. Sorted Names: Given a list of names, use a TreeSet to store the names in alphabetical order and print the sorted list.
     public static void two(){
-        List<String> arr = Arrays.asList("Anees","Srijith","Hussain","Koushik","Anees");
-        System.out.println("With Duplicates: "+arr);
+        List<String> array = Arrays.asList("Anees","Srijith","Hussain","Koushik","Anees");
+        System.out.println("With Duplicates: "+array);
 
-        TreeSet<String> set = new TreeSet<>(arr);
+        TreeSet<String> set = new TreeSet<>(array);
         System.out.println("Without Duplicates: "+set);
 
     }
